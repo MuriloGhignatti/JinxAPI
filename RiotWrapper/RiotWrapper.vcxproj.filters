@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\EasyCurl">
+      <UniqueIdentifier>{da9f38f9-39c1-4048-8f5b-301e3b291e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Json">
+      <UniqueIdentifier>{edad8673-0ce5-4444-b0b7-3b67541b9ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Summoner">
+      <UniqueIdentifier>{4fbc3690-1f4e-4e3c-94e1-9d21b3bf6102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jinx">
+      <UniqueIdentifier>{fb501a19-3421-470f-91a9-c801daeff30f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EasyCurl.cpp">
+      <Filter>Source Files\EasyCurl</Filter>
+    </ClCompile>
+    <ClCompile Include="Json.cpp">
+      <Filter>Source Files\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Summoner.cpp">
+      <Filter>Source Files\Summoner</Filter>
+    </ClCompile>
+    <ClCompile Include="Jinx.cpp">
+      <Filter>Source Files\Jinx</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyCurl.h">
+      <Filter>Source Files\EasyCurl</Filter>
+    </ClInclude>
+    <ClInclude Include="Json.h">
+      <Filter>Source Files\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Summoner.h">
+      <Filter>Source Files\Summoner</Filter>
+    </ClInclude>
+    <ClInclude Include="Jinx.h">
+      <Filter>Source Files\Jinx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
